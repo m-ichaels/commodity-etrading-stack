@@ -1,0 +1,30 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y cmake ninja-build g++
+      - run: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release && cmake --build build
+      - name: known-answer tests and the FIX identical-fills self-test
+        run: |
+          ./build/cetk_tests
+          ./build/cetk_fixgw --selftest --port 9879
+      - name: short pipeline on the committed derived data (no downloads)
+        run: |
+          ./build/cetk datacheck --root CL --out ci_datacheck.json
+          ./build/cetk curve --root CL --date 2026-09-16 --out ci_curve_cl.json
+          ./build/cetk curve --root NG --date 2026-09-16 --out ci_curve_ng.json
+          ./build/cetk factors --root CL --out ci_factors.json
+          ./build/cetk impact --root CL --boot 10 --out ci_impact.json --model-out ci_impact_model.json
+          ./build/cetk hedge --root CL --books 40 --factors ci_factors.json --impact ci_impact_model.json --out ci_hedge.json
+          ./build/cetk sim --root CL --days 3 --seeds 2 --gammas 1e-6 --hedgers Strip,ImpactAware --quoters Symmetric,BEGV_adv_cal --factors ci_factors.json --impact ci_impact_model.json --out ci_sim.json
+          ./build/cetk events --root CL --seeds 1 --from 2026-06-01 --factors ci_factors.json --impact ci_impact_model.json --out ci_events.json
+          ./build/cetk price --root CL --tier fund --tenor 3 --side 1 --qty 50 --inventory 0,0,200,0,0 --factors ci_factors.json --impact ci_impact_model.json
+      - name: Python reference implementation agrees with the C++ it just built
+        run: |
+          pip install numpy pytest
+          python -m pytest -q
+          PYTHONPATH=python python -m cetk compare --root CL --file ci_curve_cl.json
+          PYTHONPATH=python python -m cetk compare --root NG --file ci_curve_ng.json

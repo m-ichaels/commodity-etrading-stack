@@ -1,0 +1,8 @@
+180/180 checks passed
+Symmetric      in-process:   34 fills, P&L    381146.34 | FIX:   34 fills over 112 quotes, P&L    381146.34 | IDENTICAL
+BEGV_adv_cal   in-process:   32 fills, P&L    403320.53 | FIX:   32 fills over 112 quotes, P&L    403320.53 | IDENTICAL
+FIX SELF-TEST PASSED: identical fills and P&L in-process and through FIX 4.4
+...............                                                          [100%]
+15 passed in 1.42s
+python compare CL: python rebuild agrees with the C++ within 0.007191695652173913
+python compare NG: python rebuild agrees with the C++ within 0.00035645

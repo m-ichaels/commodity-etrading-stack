@@ -1,0 +1,90 @@
+{
+ "root": "CL",
+ "n_days": 8907,
+ "from": "1986-01-10",
+ "to": "2024-04-05",
+ "window": 250,
+ "curve_spec": {
+  "method": "kernel_ridge",
+  "lam": 0.0001,
+  "ell": 0.2
+ },
+ "methods": {
+  "unhedged": {
+   "std": 1.1900327577967342,
+   "reduction_vs_unhedged": 0.0
+  },
+  "front_stack": {
+   "std": 0.8772499497593899,
+   "reduction_vs_unhedged": 0.2628354606107153
+  },
+  "neighbours_50_50": {
+   "std": 0.04703338203645187,
+   "reduction_vs_unhedged": 0.9604772375144269
+  },
+  "curve_sensitivities": {
+   "std": 0.11534050465872037,
+   "reduction_vs_unhedged": 0.903077874198803
+  },
+  "learned_ridge": {
+   "std": 0.05450603520184603,
+   "reduction_vs_unhedged": 0.9541978698949765
+  }
+ },
+ "learned_over_curve_std_ratio": {
+  "point": 0.47256629718348536,
+  "ci95": [
+   0.2876566138518571,
+   0.7990475951767427
+  ]
+ },
+ "curve_over_front_std_ratio": {
+  "point": 0.13147963666496157,
+  "ci95": [
+   0.12324946737470842,
+   0.20874968304894043
+  ]
+ },
+ "by_decade": {
+  "1980": {
+   "unhedged": 0.36913626177743425,
+   "front_stack": 0.2355599138186192,
+   "neighbours_50_50": 0.02357875751558988,
+   "curve_sensitivities": 0.03781796270720653,
+   "learned_ridge": 0.020082323017256723
+  },
+  "1990": {
+   "unhedged": 0.4291027207591804,
+   "front_stack": 0.27146007490012264,
+   "neighbours_50_50": 0.03804988874056453,
+   "curve_sensitivities": 0.049819585139147256,
+   "learned_ridge": 0.03232255105033698
+  },
+  "2000": {
+   "unhedged": 1.3728253592032937,
+   "front_stack": 0.48807935477362585,
+   "neighbours_50_50": 0.06679954714091775,
+   "curve_sensitivities": 0.09814972127259051,
+   "learned_ridge": 0.06846370447763071
+  },
+  "2010": {
+   "unhedged": 1.2896557766613104,
+   "front_stack": 0.23272244258374397,
+   "neighbours_50_50": 0.027608630565571158,
+   "curve_sensitivities": 0.037682729093929494,
+   "learned_ridge": 0.021564371903700065
+  },
+  "2020": {
+   "unhedged": 1.8412458601433375,
+   "front_stack": 2.3617335922284544,
+   "neighbours_50_50": 0.061234190456642947,
+   "curve_sensitivities": 0.28413574464293984,
+   "learned_ridge": 0.105931669008525
+  }
+ },
+ "mean_curve_weights": [
+  0.13217390009889907,
+  0.3024575584282659,
+  0.5653685387377039
+ ]
+}

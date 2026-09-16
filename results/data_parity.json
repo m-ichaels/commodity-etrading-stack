@@ -1,0 +1,18 @@
+{
+ "CL": {
+  "n": 20,
+  "yahoo_front": {
+   "n": 20,
+   "median_abs_diff": 0.0,
+   "share_within_1pct_of_price": 0.95
+  }
+ },
+ "NG": {
+  "n": 15,
+  "yahoo_front": {
+   "n": 15,
+   "median_abs_diff": 0.0,
+   "share_within_1pct_of_price": 1.0
+  }
+ }
+}

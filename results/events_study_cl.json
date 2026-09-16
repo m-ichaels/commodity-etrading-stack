@@ -1,0 +1,38 @@
+{
+ "root": "CL",
+ "n_release_days": 1999,
+ "n_other_days": 7638,
+ "release_abs_move": 0.9195397698849425,
+ "release_abs_move_ci95": [
+  0.8706850925462731,
+  0.9698181590795398
+ ],
+ "other_abs_move": 0.8451256873527101,
+ "release_variance_ratio": 0.9298287608645418,
+ "kappa_jump_share": 0.0,
+ "surprise_nowcast": {
+  "train_n": 1626,
+  "test_n": 373,
+  "slope_train": -0.17574536060821008,
+  "corr_train": -0.1454078549483994,
+  "corr_oos": 0.07912827255035522,
+  "corr_oos_ci95": [
+   -0.017205829228822613,
+   0.1767617179751479
+  ],
+  "permutation_p": 0.12743628185907047,
+  "sign_hit_oos": 0.5924932975871313
+ },
+ "hedging_pressure": {
+  "train_n": 469,
+  "test_n": 378,
+  "slope_train": 41.61168044168729,
+  "corr_train": 0.08964737774778339,
+  "corr_oos": -0.08220117015712362,
+  "corr_oos_ci95": [
+   -0.2270085261679932,
+   0.08294952985359373
+  ],
+  "permutation_p": 0.10694652673663169
+ }
+}

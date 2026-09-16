@@ -1,0 +1,83 @@
+{
+ "root": "NG",
+ "n_days": 6898,
+ "from": "1995-02-17",
+ "to": "2024-04-05",
+ "window": 250,
+ "curve_spec": {
+  "method": "kernel_ridge",
+  "lam": 0.0001,
+  "ell": 0.2
+ },
+ "methods": {
+  "unhedged": {
+   "std": 0.1596032247099239,
+   "reduction_vs_unhedged": 0.0
+  },
+  "front_stack": {
+   "std": 0.0986760108146689,
+   "reduction_vs_unhedged": 0.38174174742389555
+  },
+  "neighbours_50_50": {
+   "std": 0.03714122462105397,
+   "reduction_vs_unhedged": 0.7672902619069414
+  },
+  "curve_sensitivities": {
+   "std": 0.0400328863902291,
+   "reduction_vs_unhedged": 0.7491724464653633
+  },
+  "learned_ridge": {
+   "std": 0.038031387444959375,
+   "reduction_vs_unhedged": 0.7617129132943224
+  }
+ },
+ "learned_over_curve_std_ratio": {
+  "point": 0.9500036313704765,
+  "ci95": [
+   0.8616243658803067,
+   1.0483516474614223
+  ]
+ },
+ "curve_over_front_std_ratio": {
+  "point": 0.40570029189179513,
+  "ci95": [
+   0.32955841429176785,
+   0.488001969623237
+  ]
+ },
+ "by_decade": {
+  "1990": {
+   "unhedged": 0.06869764661824108,
+   "front_stack": 0.07027224159029928,
+   "neighbours_50_50": 0.018090718718229117,
+   "curve_sensitivities": 0.020036325255968726,
+   "learned_ridge": 0.018317644174222353
+  },
+  "2000": {
+   "unhedged": 0.22741850263325727,
+   "front_stack": 0.1395945283181451,
+   "neighbours_50_50": 0.059497419794251306,
+   "curve_sensitivities": 0.06330263206212795,
+   "learned_ridge": 0.060861483041082735
+  },
+  "2010": {
+   "unhedged": 0.08309245062249712,
+   "front_stack": 0.04348428655938761,
+   "neighbours_50_50": 0.01816298864051334,
+   "curve_sensitivities": 0.019429645203388714,
+   "learned_ridge": 0.018240901829338102
+  },
+  "2020": {
+   "unhedged": 0.18625552077156637,
+   "front_stack": 0.1118066867805743,
+   "neighbours_50_50": 0.018914077439452944,
+   "curve_sensitivities": 0.025090112168095594,
+   "learned_ridge": 0.02069915233367316
+  }
+ },
+ "mean_curve_weights": [
+  0.1318981411438928,
+  0.3023513304224414,
+  0.565750525709861
+ ]
+}

@@ -1,0 +1,422 @@
+{
+ "root": "CL",
+ "days": 40,
+ "seeds": 8,
+ "ladder": [
+  1,
+  2,
+  3,
+  6,
+  12
+ ],
+ "cells": [
+  {
+   "quoter": "BEGV_adv_cal",
+   "hedger": "FrontStack",
+   "pnl": 2212885.057,
+   "decomposition": {
+    "spread": 3364612.256,
+    "inventory": -439588.4657,
+    "adverse": -120162.0327,
+    "hedge_exec": -285620.6317,
+    "hedge_impact": -306356.0694,
+    "max_abs_residual": 1.34576112e-07
+   },
+   "pnl_5min_std": 11350.81802,
+   "pnl_per_var": 0.0004783818055,
+   "risk_usd_mean": 70750.73541,
+   "internalisation_ratio": 0.8573866148,
+   "hedge_cost_per_mn_notional": 395.0053026,
+   "max_abs_q": 297,
+   "n_rfq": 1451,
+   "n_fills": 495,
+   "n_rejected": 0,
+   "n_externalised": 0,
+   "n_hedges": 84,
+   "hit_ratio_by_tier": [
+    0.4260869565,
+    0.435768262,
+    0.2121212121
+   ],
+   "markouts": [
+    {
+     "tier": "consumer",
+     "pre_event": false,
+     "n": 193,
+     "mean_delta": 0.3728200372,
+     "markout_5m": -0.007311624712,
+     "markout_30m": 0.05595619227,
+     "markout_60m": 0.0832560463,
+     "info_30m": -0.002202350242
+    },
+    {
+     "tier": "consumer",
+     "pre_event": true,
+     "n": 3,
+     "mean_delta": 0.3897004946,
+     "markout_5m": 0.5439246103,
+     "markout_30m": 0.3656799972,
+     "markout_60m": -0.544174233,
+     "info_30m": 0.3714936549
+    },
+    {
+     "tier": "producer",
+     "pre_event": false,
+     "n": 171,
+     "mean_delta": 0.4175666061,
+     "markout_5m": 0.01047591572,
+     "markout_30m": -0.005910903399,
+     "markout_60m": 0.01739304781,
+     "info_30m": 0.007499788147
+    },
+    {
+     "tier": "producer",
+     "pre_event": true,
+     "n": 2,
+     "mean_delta": 0.3854076961,
+     "markout_5m": -0.1335350699,
+     "markout_30m": 1.777840358,
+     "markout_60m": 2.454092957,
+     "info_30m": 1.697674323
+    },
+    {
+     "tier": "fund",
+     "pre_event": false,
+     "n": 123,
+     "mean_delta": 0.209308546,
+     "markout_5m": 0.01460864591,
+     "markout_30m": 0.005046775313,
+     "markout_60m": 0.05771106972,
+     "info_30m": -0.004354937088
+    },
+    {
+     "tier": "fund",
+     "pre_event": true,
+     "n": 3,
+     "mean_delta": 0.2123412467,
+     "markout_5m": -0.330268973,
+     "markout_30m": 1.627540602,
+     "markout_60m": 2.746243216,
+     "info_30m": 2.053591261
+    }
+   ],
+   "quote_structure": [
+    {
+     "tier": "consumer",
+     "pre_event": false,
+     "risk_adding": false,
+     "n": 203,
+     "mean_delta": 0.3333056305
+    },
+    {
+     "tier": "consumer",
+     "pre_event": false,
+     "risk_adding": true,
+     "n": 250,
+     "mean_delta": 0.4180035843
+    },
+    {
+     "tier": "consumer",
+     "pre_event": true,
+     "risk_adding": false,
+     "n": 2,
+     "mean_delta": 0.3178415486
+    },
+    {
+     "tier": "consumer",
+     "pre_event": true,
+     "risk_adding": true,
+     "n": 5,
+     "mean_delta": 0.4091933128
+    },
+    {
+     "tier": "producer",
+     "pre_event": false,
+     "risk_adding": false,
+     "n": 237,
+     "mean_delta": 0.3968102332
+    },
+    {
+     "tier": "producer",
+     "pre_event": false,
+     "risk_adding": true,
+     "n": 155,
+     "mean_delta": 0.479345164
+    },
+    {
+     "tier": "producer",
+     "pre_event": true,
+     "risk_adding": false,
+     "n": 3,
+     "mean_delta": 0.4024474448
+    },
+    {
+     "tier": "producer",
+     "pre_event": true,
+     "risk_adding": true,
+     "n": 2,
+     "mean_delta": 0.5369971538
+    },
+    {
+     "tier": "fund",
+     "pre_event": false,
+     "risk_adding": false,
+     "n": 229,
+     "mean_delta": 0.1824227418
+    },
+    {
+     "tier": "fund",
+     "pre_event": false,
+     "risk_adding": true,
+     "n": 348,
+     "mean_delta": 0.2679161844
+    },
+    {
+     "tier": "fund",
+     "pre_event": true,
+     "risk_adding": false,
+     "n": 11,
+     "mean_delta": 0.227763576
+    },
+    {
+     "tier": "fund",
+     "pre_event": true,
+     "risk_adding": true,
+     "n": 6,
+     "mean_delta": 0.2908542678
+    }
+   ],
+   "risk": {
+    "n_kills": 0,
+    "n_breach_risk": 0,
+    "n_breach_q": 0,
+    "limits": {
+     "max_abs_q": 1000,
+     "max_risk_usd": 2000000,
+     "max_drawdown_usd": 1000000
+    }
+   },
+   "gamma": 1e-06,
+   "seeds": 8,
+   "pnl_ci95": [
+    1498063.383,
+    2946005.764
+   ],
+   "adverse": -120162.0327,
+   "pnl_by_seed": [
+    3319646.341,
+    917739.3071,
+    4047613.861,
+    2434600.074,
+    755589.2431,
+    1885988.981,
+    2480555.404,
+    1861347.243
+   ]
+  },
+  {
+   "quoter": "BEGV_adv_cal",
+   "hedger": "ImpactAware",
+   "pnl": 2264165.678,
+   "decomposition": {
+    "spread": 3361663.011,
+    "inventory": -380073.5344,
+    "adverse": -123442.8206,
+    "hedge_exec": -285714.7972,
+    "hedge_impact": -308266.1812,
+    "max_abs_residual": 1.562293619e-07
+   },
+   "pnl_5min_std": 11319.89532,
+   "pnl_per_var": 0.0004897845848,
+   "risk_usd_mean": 72442.287,
+   "internalisation_ratio": 0.8550772115,
+   "hedge_cost_per_mn_notional": 396.4519833,
+   "max_abs_q": 309,
+   "n_rfq": 1451,
+   "n_fills": 493,
+   "n_rejected": 0,
+   "n_externalised": 0,
+   "n_hedges": 88,
+   "hit_ratio_by_tier": [
+    0.4195652174,
+    0.4282115869,
+    0.2188552189
+   ],
+   "markouts": [
+    {
+     "tier": "consumer",
+     "pre_event": false,
+     "n": 190,
+     "mean_delta": 0.3739192178,
+     "markout_5m": -0.005469129382,
+     "markout_30m": 0.05143662992,
+     "markout_60m": 0.08344995697,
+     "info_30m": -0.002057445396
+    },
+    {
+     "tier": "consumer",
+     "pre_event": true,
+     "n": 3,
+     "mean_delta": 0.3894998564,
+     "markout_5m": 0.5439246103,
+     "markout_30m": 0.3656799972,
+     "markout_60m": -0.544174233,
+     "info_30m": 0.3714936549
+    },
+    {
+     "tier": "producer",
+     "pre_event": false,
+     "n": 168,
+     "mean_delta": 0.4165336523,
+     "markout_5m": 0.009138551685,
+     "markout_30m": -0.00492447769,
+     "markout_60m": 0.01855491239,
+     "info_30m": 0.007760702254
+    },
+    {
+     "tier": "producer",
+     "pre_event": true,
+     "n": 2,
+     "mean_delta": 0.4037696817,
+     "markout_5m": -0.1335350699,
+     "markout_30m": 1.777840358,
+     "markout_60m": 2.454092957,
+     "info_30m": 1.697674323
+    },
+    {
+     "tier": "fund",
+     "pre_event": false,
+     "n": 127,
+     "mean_delta": 0.2092004185,
+     "markout_5m": 0.01653390721,
+     "markout_30m": 0.004860202636,
+     "markout_60m": 0.0670437134,
+     "info_30m": -0.004256100581
+    },
+    {
+     "tier": "fund",
+     "pre_event": true,
+     "n": 3,
+     "mean_delta": 0.216686593,
+     "markout_5m": -0.330268973,
+     "markout_30m": 1.627540602,
+     "markout_60m": 2.746243216,
+     "info_30m": 2.053591261
+    }
+   ],
+   "quote_structure": [
+    {
+     "tier": "consumer",
+     "pre_event": false,
+     "risk_adding": false,
+     "n": 201,
+     "mean_delta": 0.3328299088
+    },
+    {
+     "tier": "consumer",
+     "pre_event": false,
+     "risk_adding": true,
+     "n": 252,
+     "mean_delta": 0.4190360948
+    },
+    {
+     "tier": "consumer",
+     "pre_event": true,
+     "risk_adding": false,
+     "n": 2,
+     "mean_delta": 0.307708619
+    },
+    {
+     "tier": "consumer",
+     "pre_event": true,
+     "risk_adding": true,
+     "n": 5,
+     "mean_delta": 0.4075671211
+    },
+    {
+     "tier": "producer",
+     "pre_event": false,
+     "risk_adding": false,
+     "n": 239,
+     "mean_delta": 0.3930337968
+    },
+    {
+     "tier": "producer",
+     "pre_event": false,
+     "risk_adding": true,
+     "n": 153,
+     "mean_delta": 0.4837399227
+    },
+    {
+     "tier": "producer",
+     "pre_event": true,
+     "risk_adding": false,
+     "n": 3,
+     "mean_delta": 0.4132762766
+    },
+    {
+     "tier": "producer",
+     "pre_event": true,
+     "risk_adding": true,
+     "n": 2,
+     "mean_delta": 0.5275662604
+    },
+    {
+     "tier": "fund",
+     "pre_event": false,
+     "risk_adding": false,
+     "n": 222,
+     "mean_delta": 0.1795065613
+    },
+    {
+     "tier": "fund",
+     "pre_event": false,
+     "risk_adding": true,
+     "n": 355,
+     "mean_delta": 0.2680341853
+    },
+    {
+     "tier": "fund",
+     "pre_event": true,
+     "risk_adding": false,
+     "n": 11,
+     "mean_delta": 0.2280115494
+    },
+    {
+     "tier": "fund",
+     "pre_event": true,
+     "risk_adding": true,
+     "n": 6,
+     "mean_delta": 0.3038319662
+    }
+   ],
+   "risk": {
+    "n_kills": 0,
+    "n_breach_risk": 0,
+    "n_breach_q": 0,
+    "limits": {
+     "max_abs_q": 1000,
+     "max_risk_usd": 2000000,
+     "max_drawdown_usd": 1000000
+    }
+   },
+   "gamma": 1e-06,
+   "seeds": 8,
+   "pnl_ci95": [
+    1565684.556,
+    3012295.885
+   ],
+   "adverse": -123442.8206,
+   "pnl_by_seed": [
+    3423460.264,
+    1045196.419,
+    4120138.294,
+    2292302.786,
+    833118.798,
+    2208333.624,
+    2553936.284,
+    1636838.952
+   ]
+  }
+ ]
+}
