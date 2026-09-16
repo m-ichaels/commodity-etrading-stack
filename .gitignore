@@ -1,0 +1,11 @@
+build/
+storage/
+data/raw/yahoo/
+data/raw/download.log
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+results/parts/
+results/*.log
+*.pdb
