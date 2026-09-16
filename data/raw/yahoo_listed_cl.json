@@ -1,0 +1,278 @@
+[
+ {
+  "symbol": "CLV26.NYM",
+  "root": "CL",
+  "delivery": "2026-10",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLX26.NYM",
+  "root": "CL",
+  "delivery": "2026-11",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLZ26.NYM",
+  "root": "CL",
+  "delivery": "2026-12",
+  "n_daily": 504
+ },
+ {
+  "symbol": "CLF27.NYM",
+  "root": "CL",
+  "delivery": "2027-01",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLG27.NYM",
+  "root": "CL",
+  "delivery": "2027-02",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLH27.NYM",
+  "root": "CL",
+  "delivery": "2027-03",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLJ27.NYM",
+  "root": "CL",
+  "delivery": "2027-04",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLK27.NYM",
+  "root": "CL",
+  "delivery": "2027-05",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLM27.NYM",
+  "root": "CL",
+  "delivery": "2027-06",
+  "n_daily": 504
+ },
+ {
+  "symbol": "CLN27.NYM",
+  "root": "CL",
+  "delivery": "2027-07",
+  "n_daily": 504
+ },
+ {
+  "symbol": "CLQ27.NYM",
+  "root": "CL",
+  "delivery": "2027-08",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLU27.NYM",
+  "root": "CL",
+  "delivery": "2027-09",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLV27.NYM",
+  "root": "CL",
+  "delivery": "2027-10",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLX27.NYM",
+  "root": "CL",
+  "delivery": "2027-11",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLZ27.NYM",
+  "root": "CL",
+  "delivery": "2027-12",
+  "n_daily": 504
+ },
+ {
+  "symbol": "CLF28.NYM",
+  "root": "CL",
+  "delivery": "2028-01",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLG28.NYM",
+  "root": "CL",
+  "delivery": "2028-02",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLH28.NYM",
+  "root": "CL",
+  "delivery": "2028-03",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLJ28.NYM",
+  "root": "CL",
+  "delivery": "2028-04",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLK28.NYM",
+  "root": "CL",
+  "delivery": "2028-05",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLM28.NYM",
+  "root": "CL",
+  "delivery": "2028-06",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLN28.NYM",
+  "root": "CL",
+  "delivery": "2028-07",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLQ28.NYM",
+  "root": "CL",
+  "delivery": "2028-08",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLU28.NYM",
+  "root": "CL",
+  "delivery": "2028-09",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLV28.NYM",
+  "root": "CL",
+  "delivery": "2028-10",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLX28.NYM",
+  "root": "CL",
+  "delivery": "2028-11",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLZ28.NYM",
+  "root": "CL",
+  "delivery": "2028-12",
+  "n_daily": 504
+ },
+ {
+  "symbol": "CLF29.NYM",
+  "root": "CL",
+  "delivery": "2029-01",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLG29.NYM",
+  "root": "CL",
+  "delivery": "2029-02",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLH29.NYM",
+  "root": "CL",
+  "delivery": "2029-03",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLJ29.NYM",
+  "root": "CL",
+  "delivery": "2029-04",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLK29.NYM",
+  "root": "CL",
+  "delivery": "2029-05",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLM29.NYM",
+  "root": "CL",
+  "delivery": "2029-06",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLN29.NYM",
+  "root": "CL",
+  "delivery": "2029-07",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLQ29.NYM",
+  "root": "CL",
+  "delivery": "2029-08",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLX29.NYM",
+  "root": "CL",
+  "delivery": "2029-11",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLZ29.NYM",
+  "root": "CL",
+  "delivery": "2029-12",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLG30.NYM",
+  "root": "CL",
+  "delivery": "2030-02",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLJ30.NYM",
+  "root": "CL",
+  "delivery": "2030-04",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLM30.NYM",
+  "root": "CL",
+  "delivery": "2030-06",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLQ30.NYM",
+  "root": "CL",
+  "delivery": "2030-08",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLZ30.NYM",
+  "root": "CL",
+  "delivery": "2030-12",
+  "n_daily": 503
+ },
+ {
+  "symbol": "CLM31.NYM",
+  "root": "CL",
+  "delivery": "2031-06",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLN31.NYM",
+  "root": "CL",
+  "delivery": "2031-07",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLU31.NYM",
+  "root": "CL",
+  "delivery": "2031-09",
+  "n_daily": 502
+ },
+ {
+  "symbol": "CLZ31.NYM",
+  "root": "CL",
+  "delivery": "2031-12",
+  "n_daily": 503
+ }
+]
