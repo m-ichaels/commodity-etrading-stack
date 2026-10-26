@@ -38,5 +38,6 @@ PYTHONPATH=python python -m cetk compare --root CL --date 2026-09-16 | tail -1 |
 PYTHONPATH=python python -m cetk compare --root NG --date 2026-09-16 | tail -1 | tee -a results/tests.txt
 python scripts/plots.py results results/figures
 python scripts/summarize.py results
+python scripts/readme.py
 python scripts/report.py results report.pdf
 echo done

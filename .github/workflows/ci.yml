@@ -28,3 +28,5 @@ jobs:
           python -m pytest -q
           PYTHONPATH=python python -m cetk compare --root CL --file ci_curve_cl.json
           PYTHONPATH=python python -m cetk compare --root NG --file ci_curve_ng.json
+      - name: README and docs/method.md match the committed results
+        run: python scripts/readme.py --check
